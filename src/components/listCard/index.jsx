@@ -63,7 +63,7 @@ export const ItemList = () => {
                 <h2>热门课程</h2>
             </div>
             <List
-                grid={{ gutter: 16, xs: 1, sm: 2, md: 3, lg: 4 }}
+                grid={{ gutter: 16, xs: 1, sm: 2, md: 3, lg: 4, xl: 5, xxl: 6 }}
                 dataSource={data}
                 className="list-card"
                 renderItem={(item) => (

@@ -6,8 +6,9 @@ import './APP.css';
 // import useFormInput from './hooks/useFormInput';
 // import ValidatedInput from './components/validatedInput';
 // import TodoList from './components/todoList/todoList';
-// import { ItemList } from './components/listCard';
-import { PrimaryButton, DashedButton } from '../src/components/antButton/index'
+import { ItemList } from './components/listCard';
+// import { PrimaryButton, DashedButton } from '../src/components/antButton/index'
+// import { Copliot } from './components/copliot'
 // function Status() {
 //   const isOnline = useOnlineStatus();
 //   return <h1>{isOnline ? '✅ Online' : '❌ Disconnected'}</h1>;
@@ -77,12 +78,13 @@ export default function StatusBar() {
     //   {/* <CatFriends /> */}
     //   <TodoList />
     // </Flex>
-    // <ItemList />
-    <Flex
-      vertical
-      gap={10}>
-      <PrimaryButton />
-      <DashedButton />
-    </Flex>
+    <ItemList />
+    // <Flex
+    //   vertical
+    //   gap={10}>
+    //   <PrimaryButton />
+    //   <DashedButton />
+    // </Flex>
+    // <Copliot />
   )
 }
